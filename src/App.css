@@ -19,8 +19,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
-  color: #333;
+  background-color: light-color;
+  color: dark-color;
 }
 
 a {
@@ -175,6 +175,12 @@ img {
 }
 .my-3 {
   margin: 3rem 0;
+}
+.ml {
+  margin-left: 0.5rem;
+}
+.mr {
+  margin-right: 0.5rem;
 }
 
 /* Grid */
