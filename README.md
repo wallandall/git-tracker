@@ -1,5 +1,6 @@
 # Github-Tracker
 This React application uses the [Github API](https://api.github.com) to search and display Github user information. 
+A demo of the app can be found [here](https://github-tracker.webe-solutions.com/)
 
 
 ## Environment Variables
