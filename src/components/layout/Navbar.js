@@ -4,14 +4,13 @@ import { Link } from 'react-router-dom';
 
 const Navbar = ({ icon, title }) => {
   return (
-    <nav className="navbar bg-primary">
+    <nav className='navbar bg-primary'>
       <h1>
-        <i className={icon} />
-        {title}
+        <i className={icon} /> {title}
       </h1>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to='/'>Home</Link>
         </li>
         <li>
           <Link to='/about'>About</Link>
@@ -22,8 +21,8 @@ const Navbar = ({ icon, title }) => {
 };
 
 Navbar.defaultProps = {
-  title: "Github-Tracker",
-  icon: "fab fa-github mr"
+  title: 'Github-Tracker',
+  icon: 'fab fa-github'
 };
 
 Navbar.propTypes = {

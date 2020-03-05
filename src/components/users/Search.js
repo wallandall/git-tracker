@@ -11,7 +11,7 @@ const Search = () => {
   const onSubmit = e => {
     e.preventDefault();
     if (text === '') {
-      alertContext.setAlert('Please enter search text', 'light');
+      alertContext.setAlert('Please enter a search field!', 'light');
     } else {
       githubContext.searchUsers(text);
       setText('');

@@ -2,12 +2,15 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #dc3545;
-  --dark-color: #333333;
+  --primary-color: #64c2ec;
+  --secondary-color: #bae1f2;
+  --primary-dark-color: #1c2127;
+  --secondary-dark-color: #333333;
   --light-color: #f4f4f4;
-  --danger-color: #dc3545;
+  --danger-color: #f3031b;
   --success-color: #28a745;
 }
+
 
 * {
   box-sizing: border-box;
@@ -20,7 +23,7 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   background-color: light-color;
-  color: dark-color;
+  color: dark-primary-color;
 }
 
 a {
