@@ -63,7 +63,7 @@ const User = ({ match }) => {
             </Fragment>
           )}
           <a href={html_url} target="_blank" rel="noopener noreferrer"
-            className='btn btn-dark my-1'>
+            className='btn btn-primary my-1'>
             Visit My Github Profile
           </a>
           <ul>
@@ -94,10 +94,10 @@ const User = ({ match }) => {
         </div>
       </div>
       <div className='card text-center'>
-        <div className='badge badge-primary'>Followers: {followers}</div>
-        <div className='badge badge-success'>Following: {following}</div>
+        <div className='badge badge-dark'>Followers: {followers}</div>
+        <div className='badge badge-primary'>Following: {following}</div>
         <div className='badge badge-light'>Public Repos: {public_repos}</div>
-        <div className='badge badge-dark'>Public Gists: {public_gists}</div>
+        <div className='badge badge-success'>Public Gists: {public_gists}</div>
       </div>
       <Repos repos={repos} />
     </Fragment>
